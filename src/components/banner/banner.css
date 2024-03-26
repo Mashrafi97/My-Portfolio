@@ -1,0 +1,94 @@
+.main_banner{
+    background-color: #000;
+    padding: 128px 0 132px 0;
+}
+.banner_left h4{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    color: #c4cfed;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.banner_left h1{
+    padding-top: 50px;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.2;
+    color: #fff;
+}
+.banner_left span{
+    color: #ff014f;
+}
+.banner_left h2{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.2;
+    color: #fff;
+}
+.banner_left h2 span{
+    color: #c4cfed;
+}
+.banner_left p{
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    color: #fff;
+    opacity: 0.5;
+}
+.find_me{
+    padding-top: 60px
+}
+.find_me span{
+    padding-top: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    color: #fff;
+    opacity: 0.5;
+    text-transform: uppercase;
+    display: block;
+}
+.icons{
+    padding-top: 14px;
+    margin-left: -24px;
+}
+.find_me .icons a{
+    padding: 10px 14px;
+    margin-left: 20px;
+    background-color: rgb(33, 36, 40);
+    font-size: 28px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    color: #c4cfed;
+}
+.find_me .icons a:hover{
+    background-image: linear-gradient(to bottom right, #16181c, #212428)
+}
+.banner_right{
+    background: url(../src/assets/banner.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

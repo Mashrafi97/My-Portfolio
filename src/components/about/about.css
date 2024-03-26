@@ -1,0 +1,78 @@
+.main_about{
+    background-color: rgb(33, 36, 40);
+    padding: 80px 0;
+}
+.about_left{
+    border: 30px solid rgb(33, 36, 40);
+    background: url(../../assets/about.jpg);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    box-shadow: rgb(28, 30, 34) 10px 10px 19px 0px, rgb(38, 42, 46) -10px -10px 19px 0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.about_right{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.about_right h6{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #ff014f;
+    font-family: "Poppins", sans-serif;
+}
+.about_right h2{
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #c4cfed;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 10px;
+}
+.about_right p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    opacity: 0.5;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.about_button a{
+    padding: 16px 22px;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: #ff014f;
+    border-radius: 6px;
+    letter-spacing: 1px;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(145deg, rgb(30, 32, 36), rgb(35, 39, 43));
+    box-shadow: rgb(28, 30, 34) 10px 10px 19px 0px, rgb(38, 42, 46) -10px -10px 19px 0px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.about_button a:hover{
+    margin-top: -6px;
+}
