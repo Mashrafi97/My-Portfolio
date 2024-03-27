@@ -80,7 +80,7 @@
     background-image: linear-gradient(to bottom right, #16181c, #212428)
 }
 .banner_right{
-    background: url(../src/assets/banner.jpg);
+    background-image: url(https://i.postimg.cc/t4StQTjH/banner.jpg);
     width: 100%;
     height: 100%;
     background-position: center;

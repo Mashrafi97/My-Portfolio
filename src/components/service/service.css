@@ -1,0 +1,73 @@
+
+.service{
+    background-color: rgb(33, 36, 40);
+    padding: 40px 0;
+}
+.service_top{
+    position: relative;
+}
+.service_top::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #121415;
+    opacity: 0.8;
+}
+.service_top h5{
+    padding-top: 80px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #ff014f;
+    font-family: "Poppins", sans-serif;
+    opacity: 0.6;
+}
+.service_top h2{
+    font-size: 56px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #c4cfed;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+}
+.card_one{
+    margin-bottom: 30px;
+    padding: 38px 45px;
+    width: 100%;
+    background-color: #c4cfed;
+    background-clip: border-box;
+    background-color: rgba(11, 11, 11, 0);
+    background-image: linear-gradient(145deg, rgb(30, 32, 36), rgb(35, 39, 43));
+    box-shadow: rgb(28, 30, 34) 10px 10px 19px 0px, rgb(38, 42, 46) -10px -10px 19px 0px;
+    transition-duration: 0.4s;
+}
+.card_one svg{
+    font-size: 36px;
+    color: #ff014f;
+}
+.card_one h6{
+    padding-top: 18px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #c4cfed;
+    list-style: 1.2;
+    font-family: "Poppins", sans-serif;
+}
+.card_one p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    opacity: 0.5;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
+}
+.card_one:hover{
+    padding: 31px 45px 45px 45px;
+    background-image: linear-gradient(to right bottom, #212428, #16181c);
+}

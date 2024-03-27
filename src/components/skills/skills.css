@@ -1,0 +1,74 @@
+.skills{
+    padding: 20px 0;
+    background-color: rgb(33, 36, 40);
+}
+.skills_top{
+    position: relative;
+    text-align: center;
+}
+.skills_top::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #121415;
+    opacity: 0.8;
+}
+.skills_top h5{
+    padding-top: 100px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #ff014f;
+    font-family: "Poppins", sans-serif;
+    opacity: 0.6;
+}
+.skills_top h2{
+    font-size: 56px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #c4cfed;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+}
+.skills_one a{
+    padding: 20px 100px;
+    background-color: rgba(7, 7, 7, 0);
+    background-image: linear-gradient(145deg, rgb(30, 32, 36), rgb(35, 39, 43));
+    box-shadow: rgb(28, 30, 34) 10px 10px 19px 0px, rgb(38, 42, 46) -10px -10px 19px 0px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    transition-duration: 0.4s;
+}
+.skills_one a:hover{
+    background-image: linear-gradient(to right bottom, #212428, #16181c);
+}
+.skills_one img{
+    width: 100%;
+}
+.skills_bootstrap a{
+    padding: 30px 100px;
+    background-color: rgba(7, 7, 7, 0);
+    background-image: linear-gradient(145deg, rgb(30, 32, 36), rgb(35, 39, 43));
+    box-shadow: rgb(28, 30, 34) 10px 10px 19px 0px, rgb(38, 42, 46) -10px -10px 19px 0px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    transition-duration: 0.4s;
+    margin-bottom: 40px;
+}
+.skills_bootstrap a:hover{
+    background-image: linear-gradient(to right bottom, #212428, #16181c);
+}
+.skills_bootstrap img{
+    width: 100%;
+}
