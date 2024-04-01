@@ -2,28 +2,55 @@ import React from 'react'
 import "./menu.css"
 import { Nav, Navbar, Container } from 'react-bootstrap'
 import logo from "../../assets/logo.png"
+import ScrollspyNav from "react-scrollspy-nav";
+import Offcanvas from 'react-bootstrap/Offcanvas';
 
-const Menu = () => {
+
+function Menu() {
   return (
-    <Navbar expand="lg" className="main_nav">
-      <Container>
-        <Navbar.Brand href="#home"><img src={logo} alt="logo" /></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto nav">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#service">Service</Nav.Link>
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-        <div className='button'>
-            <a href="#">Contact</a>
+    <>
+      {[false, 'sm', 'md', 'lg'].map((expand) => (
+        <Navbar key={expand} expand={expand} className="main_nav">
+          <Container>
+            <Navbar.Brand href="#"><img src={logo} alt="" /></Navbar.Brand>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Offcanvas
+              id={`offcanvasNavbar-expand-${expand}`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+              placement="end"
+            >
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                  Menu
+                </Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
+                <Nav className="justify-content-end flex-grow-1 pe-3">
+                <ScrollspyNav scrollTargetIds={["main_banner", "main_about", "main_service", "main_portfolio", "main_pricing", "main_contact"]}
+                    offset={100}
+                    activeNavClass="is-active"
+                    scrollDuration="50"
+                    headerBackground="true">
+            <ul>   
+            <li><Nav.Link href="#main_banner">Home</Nav.Link></li>
+            <li><Nav.Link href="#main_about">About</Nav.Link></li>
+            <li><Nav.Link href="#main_service">Service</Nav.Link></li>
+            <li><Nav.Link href="#main_portfolio">Portfolio</Nav.Link></li>
+            <li><Nav.Link href="#main_pricing">Pricing</Nav.Link></li>
+            <li><Nav.Link href="#main_contact">Contact</Nav.Link></li>
+            </ul>
+            </ScrollspyNav>
+                  <div className='button'>
+            <a href="#main_pricing">Buy Now</a>
         </div>
-      </Container>
-    </Navbar>
-  )
+                </Nav>
+              </Offcanvas.Body>
+            </Navbar.Offcanvas>
+          </Container>
+        </Navbar>
+      ))}
+    </>
+  );
 }
 
 export default Menu

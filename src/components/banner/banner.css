@@ -1,6 +1,13 @@
-.main_banner{
+#main_banner{
     background-color: #000;
-    padding: 128px 0 132px 0;
+}
+.banner{
+    padding-top: 197px;
+    padding-bottom: 132px;
+}
+.banner_right{
+    margin: 0;
+    padding: 0;
 }
 .banner_left h4{
     font-size: 18px;
@@ -19,8 +26,17 @@
     line-height: 1.2;
     color: #fff;
 }
-.banner_left span{
-    color: #ff014f;
+.banner_left h1 span{
+    color: #c4cfed;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.2;
+}
+.banner_left .righting{
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
 }
 .banner_left h2{
     font-size: 38px;
@@ -31,6 +47,10 @@
 }
 .banner_left h2 span{
     color: #c4cfed;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.2;
 }
 .banner_left p{
     padding-top: 20px;
@@ -40,6 +60,7 @@
     line-height: 1.5;
     color: #fff;
     opacity: 0.5;
+    padding-right: 50px;
 }
 .find_me{
     padding-top: 60px
@@ -81,6 +102,8 @@
 }
 .banner_right{
     background-image: url(https://i.postimg.cc/t4StQTjH/banner.jpg);
+    box-shadow: rgb(28, 30, 34) 10px 10px 19px 0px, rgb(38, 42, 46) -10px -10px 19px 0px;
+    border: 16px solid rgb(22, 23, 24);
     width: 100%;
     height: 100%;
     background-position: center;
@@ -91,4 +114,284 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+
+/* responsive design */
+@media (max-width:576px){
+    .banner {
+        padding-top: 130px;
+        padding-bottom: 20px;
+    }
+    .banner_left h4 {
+        font-size: 14px;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    .banner_left h1 {
+        padding-top: 20px;
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .banner_left h1 span{
+        padding-top: 20px;
+        font-size: 34px;
+        font-weight: 600;
+    }
+    .banner_right{
+        display: none;
+    }
+    .banner_left .righting{
+        height: 30px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .banner_left h2{
+        font-size: 24px;
+    }
+    .banner_left h2 span{
+        font-size: 24px;
+    }
+    .banner_left p{
+        padding-top: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        line-height: 1.5;
+        color: #fff;
+        opacity: 0.5;
+        padding-right: 50px;
+    }
+    .find_me {
+        padding-top: 20px;
+    }
+    .find_me span {
+        text-align: center;
+        padding-top: 0px;
+        font-size: 14px;
+    }
+    .icons {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .find_me .icons a {
+        padding: 7px 11px;
+        font-size: 20px;
+    }
+    .banner_left svg {
+        text-align: center;
+        height: 30px;
+        width: 30px;
+        padding: 0px;
+    }
+}
+@media (max-width:767.98px){
+    .banner {
+        padding-top: 130px;
+        padding-bottom: 20px;
+    }
+    .banner_left h4 {
+        font-size: 15px;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    .banner_left h1 {
+        padding-top: 20px;
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .banner_left h1 span{
+        padding-top: 20px;
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .banner_right{
+        display: none;
+    }
+    .banner_left .righting{
+        height: 30px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .banner_left h2{
+        font-size: 24px;
+    }
+    .banner_left h2 span{
+        font-size: 24px;
+    }
+    .banner_left p{
+        padding-top: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        line-height: 1.5;
+        color: #fff;
+        opacity: 0.5;
+        padding-right: 50px;
+    }
+    .find_me {
+        padding-top: 20px;
+    }
+    .find_me span {
+        text-align: center;
+        padding-top: 0px;
+        font-size: 15px;
+    }
+    .icons {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .find_me .icons a {
+        padding: 7px 11px;
+        font-size: 20px;
+    }
+    .banner_left svg {
+        text-align: center;
+        height: 30px;
+        width: 30px;
+        padding: 0px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .banner {
+        padding-top: 140px;
+        padding-bottom: 30px;
+    }
+    .banner_left h4 {
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+    .banner_left h1 span {
+        padding-top: 20px;
+        font-size: 42px;
+        font-weight: 700;
+    }
+    .banner_left h1{
+        padding-top: 20px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .banner_left .righting{
+        height: 40px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .banner_left h2{
+        font-size: 26px;
+    }
+    .banner_left h2 span{
+        font-size: 26px;
+    }
+    .banner_left p{
+        padding-top: 36px;
+        font-size: 15px;
+    }
+    .find_me {
+        padding-top: 10px;
+    }
+    .find_me span {
+        padding-top: 0px;
+        font-size: 15px;
+    }
+    .icons {
+        padding-top: 10px;
+    }
+    .find_me .icons a {
+        padding: 7px 11px;
+        font-size: 20px;
+    }
+    .banner_left svg {
+        text-align: center;
+        height: 30px;
+        width: 30px;
+        padding: 0px;
+    }
+    .banner_right {
+        border: 10px solid rgb(22, 23, 24);
+        height: 60%;
+        margin-top: 50px;
+    }
+}
+@media (min-width:992px) and (max-width:1200px){
+    .banner {
+        padding-top: 160px;
+        padding-bottom: 80px;
+    }
+    .banner_left h4 {
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+    .banner_left h1 span {
+        padding-top: 20px;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .banner_left h1{
+        padding-top: 20px;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .banner_left .righting{
+        height: 40px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .banner_left h2{
+        font-size: 28px;
+    }
+    .banner_left h2 span{
+        font-size: 28px;
+    }
+    .banner_left p{
+        padding-top: 36px;
+        font-size: 16px;
+    }
+    .find_me {
+        padding-top: 10px;
+    }
+    .find_me span {
+        padding-top: 0px;
+        font-size: 16px;
+    }
+    .icons {
+        padding-top: 10px;
+    }
+    .find_me .icons a {
+        padding: 7px 11px;
+        font-size: 24px;
+    }
+    .banner_left svg {
+        text-align: center;
+        height: 37px;
+        width: 34px;
+        padding: 0px;
+    }
+    .banner_right {
+        border: 10px solid rgb(22, 23, 24);
+        height: 93%;
+        margin-top: 20px;
+    }
+}
+@media (min-width:1200px) and (max-width:1400px){
+    .banner {
+        padding-top: 160px;
+        padding-bottom: 80px;
+    }
+    .banner_right {
+        border: 10px solid rgb(22, 23, 24);
+        height: 90%;
+    }
+    .banner_left h2{
+        font-size: 34px;
+    }
+    .banner_left h2 span{
+        font-size: 34px;
+    }
+    .find_me {
+        padding-top: 10px;
+    }
+}
+@media (min-width:1400px) and (max-width:1600px){
+    .banner_right {
+        height: 100%;
+    }
 }

@@ -10,7 +10,7 @@ import { BsFillMapFill } from "react-icons/bs";
 
 const Service = () => {
   return (
-    <div className="service">
+    <div id="main_service">
         <Container>
             <Row>
                 <Col lg={12}>

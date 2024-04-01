@@ -6,6 +6,10 @@ import Banner from './components/banner/Banner';
 import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import Service from './components/service/Service';
+import Portfolio from './components/portfolio/Portfolio';
+import Pricing from './components/pricing/Pricing';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -18,6 +22,10 @@ function App() {
       <About/>
       <Skills/>
       <Service/>
+      <Portfolio/>
+      <Pricing/>
+      <Contact/>
+      <Footer/>
     </>
   )
 }

@@ -4,18 +4,25 @@ import { Container,Row,Col } from 'react-bootstrap'
 import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { ReactTyped } from "react-typed";
+import ScrollToTop from "react-scroll-to-top";
 
 const Banner = () => {
   return (
-    <div className="main_banner">
+    <div id="main_banner">
+        <div className="banner">
         <Container>
             <Row>
-                <Col lg={6}>
+                <Col md={6}>
                     <div className="banner_left">
+                    <ScrollToTop
+                    smooth/>
                         <h4>Welcome to My Portfolio</h4>
                         <h1>Hi, I'm <span>Mashrafi</span></h1>
-                        <h2>a Professional <span>Web Developer.</span></h2>
-                        <p>"Welcome to my portfolio! Here, creativity meets functionality, and innovation intersects with design. I invite you to explore a showcase of my passion, dedication, and expertise. From captivating graphics to seamless user experiences, each project reflects my commitment to excellence. Let's embark on a journey through imagination and ingenuity. Together, we'll shape the future, one pixel at a time."</p>
+                        <div className="righting">
+                        <ReactTyped strings={["<h2>A Proffessional <span>Web Developer.</span></h2>","<h2>Front-End <span>Web Developer.</span></h2>","<h2>Full-Stack<span> Web Developer.</span></h2>"]}typeSpeed={40}backSpeed={30} loop={true} />
+                        </div>
+                        <p>"Here, creativity meets functionality, and innovation intersects with design. I invite you to explore a showcase of my passion, dedication, and expertise. From captivating graphics to seamless user experiences, each project reflects my commitment to excellence. Let's embark on a journey through imagination and ingenuity. Together, we'll shape the future, one pixel at a time."</p>
                         <div className="find_me">
                             <span>find with me</span>
                             <div className="icons">
@@ -26,12 +33,13 @@ const Banner = () => {
                         </div>
                     </div>
                 </Col>
-                <Col lg={6}>
+                <Col md={6}>
                     <div className="banner_right">
                     </div>
                 </Col>
             </Row>
         </Container>
+        </div>
     </div>
   )
 }
