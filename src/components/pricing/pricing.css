@@ -55,6 +55,14 @@
     -moz-border-radius: 16px;
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+.pricing_middle:hover{
+    background-image: linear-gradient(to right bottom, #212428, #16181c);
 }
 .pricing_middle h6{
     font-family: "Poppins", sans-serif;
@@ -129,4 +137,69 @@
 }
 .pricing_middle .btn a:hover{
     margin-top: -8px;
+}
+
+/* responsive part start */
+@media(max-width:575.98px) {
+#main_pricing {
+    padding: 20px 0;
+}
+.pricing_left h6 {
+	padding-top: 36px;
+	letter-spacing: 2px;
+	font-size: 16px;
+	line-height: 28px;
+}
+.pricing_left h2 {
+	font-size: 28px;
+	padding-bottom: 0px;
+}
+.pricing_left p {
+	font-size: 14px;
+	line-height: 26px;
+	padding-top: 0px;
+}
+.pricing_middle {
+	border-radius: 16px;
+	margin-top: 10px;
+	padding: 16px 18px 8px 10px;
+}
+.pricing_middle h6 {
+	font-weight: 500;
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+.pricing_middle h5 {
+	font-weight: 500;
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+.pricing_middle h4 {
+	font-weight: 500;
+	font-size: 28px;
+}
+.pricing_middle ul li svg {
+	font-size: 16px;
+}
+.pricing_middle ul li {
+	font-size: 16px;
+	line-height: 28px;
+	padding-top: 0px;
+}
+.pricing_middle .btn a {
+	padding: 12px 55px;
+	font-size: 16px;
+}
+.pricing_middle .btn {
+	padding-top: 22px;
+}
+@media (min-width:576px) and (max-width:767.98px) {
+    
+}
+@media (min-width:992px) and (max-width:1199.98px) {
+  
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+ 
 }

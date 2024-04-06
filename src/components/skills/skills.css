@@ -72,3 +72,39 @@
 .skills_bootstrap img{
     width: 100%;
 }
+
+/* responsive part start */
+@media(max-width:575.98px) {
+    .skills {
+        padding: 20px 0;
+    }
+    .skills_top h5 {
+        padding-top: 20px;
+        letter-spacing: 2px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .skills_top h2 {
+        font-size: 28px;
+        padding-bottom: 16px;
+    }
+    .skills_one a {
+        padding: 12px 46px;
+        margin-top: 8px;
+    }
+    .skills_bootstrap a {
+        padding: 14px 46px;
+        margin-top: 8px;
+        margin-bottom: 0px;
+    }
+}
+@media (min-width:576px) and (max-width:767.98px) {
+    
+}
+@media (min-width:992px) and (max-width:1199.98px) {
+  
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+ 
+}

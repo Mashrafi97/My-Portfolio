@@ -16,8 +16,8 @@ const About = () => {
                     <div className="about_right">
                         <h6>Visit my portfolio & Hire me</h6>
                         <h2>About Me</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed culpa et dolorem doloribus in quia, delectus sapiente quod. Harum voluptate necessitatibus voluptates, labore nobis dignissimos rerum. Ipsam aliquam itaque dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. A, odio iste! Alias quia voluptas tempore, asperiores sequi ut esse, nihil necessitatibus, fugiat voluptatum eius accusamus voluptatibus corrupti repudiandae quos illo.</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde iste necessitatibus odit id, laudantium, consequuntur sed in at, vero blanditiis doloremque ipsam officiis sit suscipit ad minus. Repudiandae, officiis at?</p>
+                        <p>Hello there! I'm Mashrafi, a passionate Front-End Web Developer with a love for beautiful and functional digital experiences. With a keen eye for design and a knack for coding, I specialize in translating creative concepts into responsive and user-friendly websites.</p>
+                        <p>I hold a diploma in Front-End Web Development, where I honed my skills in HTML5, CSS3, Bootstrap3, JavaScript, React.JS, Tailwind.CSS, NEXT.JS, etc. Over the years, I've gained valuable experience working on a variety of projects, from small business websites to large-scale web applications.</p>
                         <div className="about_button">
                             <a href="#">Download My CV</a>
                         </div>

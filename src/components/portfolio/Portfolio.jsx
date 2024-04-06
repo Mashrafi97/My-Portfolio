@@ -68,7 +68,7 @@ const Portfolio = () => {
                         </Col>
                         <Col lg={7}>
                             <div className="slider_one_right">
-                                <img src={slider_one_img} alt="slider_one" />
+                                <a href="#"><img src={slider_one_img} alt="slider_one" /></a>
                             </div>
                         </Col>
                         </Row>
@@ -92,7 +92,7 @@ const Portfolio = () => {
                         </Col>
                         <Col lg={7}>
                             <div className="slider_one_right">
-                                <img src={slider_two_img} alt="slider_two" />
+                                <a href="#"><img src={slider_two_img} alt="slider_two" /></a>
                             </div>
                         </Col>
                         </Row>
@@ -116,7 +116,7 @@ const Portfolio = () => {
                         </Col>
                         <Col lg={7}>
                             <div className="slider_one_right">
-                                <img src={slider_three_img} alt="slider_three" />
+                                <a href="#"><img src={slider_three_img} alt="slider_three" /></a>
                             </div>
                         </Col>
                         </Row>

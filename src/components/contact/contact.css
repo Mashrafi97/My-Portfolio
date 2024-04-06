@@ -47,6 +47,14 @@
     -moz-border-radius: 16px;
     -ms-border-radius: 16px;
     -o-border-radius: 16px;
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+.contact_left:hover{
+    background-image: linear-gradient(to right bottom, #212428, #16181c);
 }
 .contact_left img{
     width: 100%;
@@ -202,4 +210,77 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     font-family: "Poppins", sans-serif;
+}
+
+/* responsive part start */
+@media(max-width:575.98px) {
+#main_contact {
+    padding: 0px 0;
+}    
+.contact_top h6 {
+	padding-top: 20px;
+	letter-spacing: 2px;
+	font-size: 16px;
+	line-height: 28px;
+}
+.contact_top h2 {
+	font-size: 28px;
+	padding-bottom: 0px;
+}
+.contact_left {
+	margin-top: 10px;
+	padding: 16px;
+}
+.contact_left img {
+	height: 200px;
+}
+.contact_left h3 {
+	padding-top: 16px;
+	font-size: 18px;
+	font-weight: 500;
+}
+.contact_left p {
+	padding-top: 0px;
+	font-size: 14px;
+	line-height: 26px;
+}
+.contact_left a {
+	padding-top: 0px;
+	font-size: 14px;
+	line-height: 26px;
+}
+.contact_left a::after{
+    bottom: 0;
+}
+.contact_right {
+	padding: 16px;
+}
+.contact_right .name {
+	padding-top: 10px;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+.contact_right .input_name {
+	height: 42px;
+}
+.contact_right .message_box {
+	height: 120px;
+}
+.submit_btn {
+	height: 75px;
+}
+.submit_btn button {
+	font-size: 16px;
+	margin-top: 16px;
+}
+}
+@media (min-width:576px) and (max-width:767.98px) {
+    
+}
+@media (min-width:992px) and (max-width:1199.98px) {
+  
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+ 
 }

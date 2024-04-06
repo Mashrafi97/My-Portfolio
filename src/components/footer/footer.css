@@ -18,6 +18,13 @@
 .footer_one{
     margin-top: 80px;
 }
+.footer_one .logo{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    color: aliceblue;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
 .footer_two h4{
     padding-top: 80px;
     text-transform: uppercase;
@@ -94,4 +101,37 @@
     color: #fff;
     font-family: "Poppins", sans-serif;
     opacity: 0.5;
+}
+
+/* responsive part start */
+@media(max-width:575.98px) {
+#main_footer {
+    padding: 20px 0 20px;
+}
+.footer_one {
+	margin-top: 44px;
+}
+.footer_two h4 {
+	padding-top: 16px;
+	font-size: 18px;
+}
+.footer_two ul li a {
+	padding-top: 5px;
+	font-size: 16px;
+	line-height: 26px;
+}
+.copyright_part {
+    margin-top: 20px;
+	padding: 20px 0 5px;
+}
+}
+@media (min-width:576px) and (max-width:767.98px) {
+    
+}
+@media (min-width:992px) and (max-width:1199.98px) {
+  
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+ 
 }

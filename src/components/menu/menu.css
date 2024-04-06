@@ -7,16 +7,18 @@
     left: 0;
     width: 100%;
 }
-.main_nav ul{
-    display: flex;
-    padding-top: 20px;
-    list-style: none;
+.main_nav .logo{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    color: aliceblue;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
-.main_nav ul li{
-    margin: 0;
-    padding: 0;  
-}
-.main_nav ul li a{
+.main_nav .nav-link{
+    margin-top: 12px;
+    display: inline-block;
+    text-decoration: none;
     color: white !important;
     font-size: 16px;
     font-weight: 500;
@@ -30,11 +32,11 @@
     -ms-transition: 0.7s;
     -o-transition: 0.7s;
 }
-.main_nav ul li a:hover{
+.main_nav .nav-link:hover{
     color: #ff014f !important;
 }
-.button a{
-    margin-top: 18px;
+.main_nav .button a{
+    margin-top: 10px;
     padding: 10px 18px;
     background-color: #ff014f;
     font-size: 16px;
@@ -55,104 +57,55 @@
     -o-transition: 0.4s;
     margin-left: 15px;
 }
-.main_nav ul li .is-active{
-    background-color: #ff014f !important;
-    color: #ff014f !important;
-}
-/* responsive design */
-@media(max-width:576px){
-    .offcanvas-header{
-        color: #fff;
-    }
-    .offcanvas-title {
-        padding-left: 130px;
+/* responsive part start */
+@media(max-width:575.98px){
+    .nav-link{
+        display: inline-block;
+        text-decoration: none;
+        color: white !important;
+        font-size: 14px !important;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        line-height: 26px;
+        padding: 0px !important;
     }
     .offcanvas-body{
-        background: rgba(33, 36, 40) !important;
-    }
-    .offcanvas-body ul li a{
-        color: white !important;
-        font-size: 14px;
-        text-transform: uppercase;
-    }
-    .offcanvas-body ul{
-        list-style: none;
-    }
-    .offcanvas-header {
-        background: rgba(33, 36, 40) !important;
-    }
-    .offcanvas-body .button a{
-        font-size: 14px;
-        padding: 6px 12px;
-        margin-left: 20px;
-        margin-top: 0;
-    }
-    .offcanvas-header .btn-close {
-        background-color: #fff;
-    }
-    .navbar-toggler-icon {
-        border: none;
-        outline: none;
-        color: #fff;
-        padding: 15px;
-        background-color: #fff;
-    }
-    .navbar-toggler-icon{
-        border: none;
-        outline: none;
-        color: #fff;
-        background-color: #fff;
-        border-radius: 4px;
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        -ms-border-radius: 4px;
-        -o-border-radius: 4px;
-}
-}
-@media(max-width:991px){
-    .offcanvas-header{
-        color: #fff;
+        background-color: black;
     }
     .offcanvas-title {
+        margin-bottom: 0;
         padding-left: 130px;
     }
-    .offcanvas-body ul li a{
-        color: black !important;
-        font-size: 16px;
-        font-weight: 600;
+    .button a{
+        margin-top: 10px;
+        padding: 6px 14px;
+        background-color: rgb(255, 0, 0);
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        line-height: 28px;
         text-transform: uppercase;
-    }
-    .offcanvas-body ul{
-        list-style: none;
-    }
-    .offcanvas-header {
-        background: rgba(33, 36, 40) !important;
-    }
-    .offcanvas-body .button a{
-        font-size: 16px;
-        padding: 8px 14px;
-        margin-left: 20px;
-        margin-top: 0;
-    }
-    .offcanvas-header .btn-close {
-        background-color: #fff;
-    }
-    .navbar-toggler-icon {
-        border: none;
-        outline: none;
-        color: #fff;
-        padding: 15px;
-        background-color: #fff;
-    }
-    .navbar-toggler-icon{
-        border: none;
-        outline: none;
-        color: #fff;
-        background-color: #fff;
-        border-radius: 4px;
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        -ms-border-radius: 4px;
-        -o-border-radius: 4px;
+        color: #fff !important;
+        border-radius: 14px;
+        -webkit-border-radius: 14px;
+        -moz-border-radius: 14px;
+        -ms-border-radius: 14px;
+        -o-border-radius: 14px;
+        margin-left: 80px;
 }
+.navbar-toggler-icon {
+	background-color: white;
+	border-radius: 4px;
+}   
+}
+@media (min-width:576px) and (max-width:767.98px) {
+    
+}
+@media (min-width:992px) and (max-width:1199.98px) {
+  
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+ 
 }

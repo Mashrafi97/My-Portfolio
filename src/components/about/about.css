@@ -50,6 +50,10 @@
     padding-top: 10px;
     padding-bottom: 20px;
 }
+.about_button{
+    height: 30px;
+    width: 100%;
+}
 .about_button a{
     padding: 16px 22px;
     font-size: 17px;
@@ -77,4 +81,57 @@
 }
 .about_button a:hover{
     margin-top: -6px;
+}
+
+/* responsive part start */
+@media(max-width:575.98px) {
+    #main_about {
+        padding: 25px 0;
+    }
+    .about_left {
+        height: 280px;
+    }
+    .about_right {
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .about_right h6 {
+        letter-spacing: 2px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .about_right h2 {
+        font-size: 28px;
+        line-height: 28px;
+        font-weight: 600;
+        padding-bottom: 0px;
+    }
+    .about_right p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .about_button {
+        height: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .about_button a {
+        padding: 9px 13px;
+        font-size: 14px;
+        border-radius: 6px;
+        letter-spacing: 0px;
+    }
+}
+@media (min-width:576px) and (max-width:767.98px) {
+    
+}
+@media (min-width:992px) and (max-width:1199.98px) {
+  
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+ 
 }

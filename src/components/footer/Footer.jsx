@@ -1,7 +1,6 @@
 import React from 'react'
 import "./footer.css"
 import { Container, Row, Col } from 'react-bootstrap'
-import logo from "../../assets/logo.png"
 
 const Footer = () => {
   return (
@@ -13,22 +12,23 @@ const Footer = () => {
           </Col>
           <Col lg={3}>
             <div className="footer_one">
-              <a href="#"><img src={logo} alt="logo" /></a>
+              <h4 className='logo'>Mashrafi</h4>
             </div>
           </Col>
-          <Col lg={3}>
+          <Col lg={3}  sm={4}>
             <div className="footer_two">
               <h4>QUICK LINK</h4>
               <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Portfolio</a></li>    
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#main_about">About</a></li>
+                <li><a href="#main_service">Service</a></li>
+                <li><a href="#main_blog">Blog</a></li>
+                <li><a href="#main_portfolio">Portfolio</a></li>    
+                <li><a href="#main_pricing">Pricing</a></li>
+                <li><a href="#main_contact">Contact</a></li>
               </ul>
             </div>
           </Col>
-          <Col lg={3}>
+          <Col lg={3}  sm={4}>
             <div className="footer_two">
               <h4>RESOURCES</h4>
               <ul>
@@ -40,7 +40,7 @@ const Footer = () => {
               </ul>
             </div>
           </Col>
-          <Col lg={3}>
+          <Col lg={3} Col sm={4}>
             <div className="footer_two">
               <h4>DEVELOPERS</h4>
               <ul>
