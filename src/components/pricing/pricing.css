@@ -140,7 +140,7 @@
 }
 
 /* responsive part start */
-@media(max-width:575.98px) {
+@media(min-width:200px) and (max-width:575.98px){
 #main_pricing {
     padding: 20px 0;
 }
@@ -192,6 +192,7 @@
 }
 .pricing_middle .btn {
 	padding-top: 22px;
+}
 }
 @media (min-width:576px) and (max-width:767.98px) {
     

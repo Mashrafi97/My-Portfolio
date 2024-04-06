@@ -84,7 +84,7 @@
 }
 
 /* responsive part start */
-@media(max-width:575.98px) {
+@media(min-width:200px) and (max-width:575.98px) {
     #main_about {
         padding: 25px 0;
     }

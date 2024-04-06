@@ -110,7 +110,7 @@
 }
 
 /* responsive design */
-@media (max-width:576.98px){
+@media(min-width:200px) and (max-width:576.98px){
     .banner {
         padding-top: 120px;
         padding-bottom: 20px;

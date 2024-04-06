@@ -205,7 +205,7 @@
 }
 
 /* responsive part start */
-@media(max-width:575.98px) {
+@media(min-width:200px) and (max-width:575.98px) {
 #main_blog {
     padding: 0px 0 20px;
 }
