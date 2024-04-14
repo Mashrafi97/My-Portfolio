@@ -17,7 +17,7 @@ const Blog = () => {
                         <h2>Blog</h2>
                     </div>
                 </Col>
-                <Col lg={7}>
+                <Col lg={7} md={7}>
                     <div className="blog_left">
                         <img src={blog_one} alt="blog_one" />
                         <h6>Why Front-end is important</h6>
@@ -28,7 +28,7 @@ const Blog = () => {
                         <a href="https://en.wikipedia.org/wiki/Web_design">Learn More <FaArrowRightLong /></a>
                     </div>
                 </Col>
-                <Col lg={5}>
+                <Col lg={5} md={5}>
                     <div className="blog_right">
                         <img src={blog_two} alt="blog_two" />
                         <h6>why React is so popular</h6>

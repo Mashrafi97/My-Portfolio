@@ -84,7 +84,7 @@
 }
 
 /* responsive part start */
-@media(min-width:200px) and (max-width:575.98px) {
+@media(min-width:200px) and (max-width:576.98px) {
     #main_about {
         padding: 25px 0;
     }
@@ -125,13 +125,99 @@
         letter-spacing: 0px;
     }
 }
-@media (min-width:576px) and (max-width:767.98px) {
-    
+@media (min-width:577px) and (max-width:767.98px){
+    #main_about {
+        padding: 40px 0;
+    }
+    .about_left {
+        height: 300px;
+    }
+    .about_right {
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .about_right h6 {
+        letter-spacing: 2px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .about_right h2 {
+        font-size: 28px;
+        line-height: 28px;
+        font-weight: 600;
+        padding-bottom: 0px;
+    }
+    .about_right p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .about_button {
+        height: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .about_button a {
+        padding: 9px 13px;
+        font-size: 14px;
+        border-radius: 6px;
+        letter-spacing: 0px;
+    }
 }
-@media (min-width:992px) and (max-width:1199.98px) {
-  
+@media (min-width:768px) and (max-width:991.98px){
+    #main_about {
+        padding: 40px 0;
+    }
+    .about_left {
+        height: 464px;
+        border: 20px solid rgb(33, 36, 40);
+    }
+    .about_right {
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .about_right h6 {
+        letter-spacing: 2px;
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .about_right h2 {
+        font-size: 38px;
+        line-height: 1.2;
+        font-weight: 600;
+        padding-bottom: 0px;
+    }
+    .about_right p {
+        font-size: 14px;
+        line-height: 26px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .about_button {
+        height: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .about_button a {
+        padding: 9px 13px;
+        font-size: 14px;
+        border-radius: 6px;
+        letter-spacing: 0px;
+    }
 }
-
-@media (min-width:1200px) and (max-width:1400px){
- 
+@media (min-width:992px) and (max-width:1199.98px){
+    #main_about {
+        padding: 60px 0;
+    }
+    .about_left {
+        border: 25px solid rgb(33, 36, 40);
+    }
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+    #main_about {
+        padding: 80px 0;
+    }
 }

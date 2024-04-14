@@ -21,42 +21,42 @@ const Skills = () => {
                         <h2>My Skill</h2>
                     </div>
                 </Col>
-                <Col lg={3} xs={6}>
+                <Col lg={3} xs={6} sm={4}>
                         <div className="skills_one">
                         <a href="#"><img src={skills_one} alt="html5"/></a>
                     </div>
                 </Col>
-                <Col lg={3} xs={6}>
+                <Col lg={3} xs={6} sm={4}>
                         <div className="skills_one">
                         <a href="#"><img src={skills_two} alt="css3"/></a>
                     </div>
                 </Col>
-                <Col lg={3} xs={6}l>
-                        <div className="skills_bootstrap">
+                <Col lg={3} xs={6} sm={4}>
+                        <div className="skills_one">
                         <a href="#"><img src={skills_three} alt="bootstrap"/></a>
                     </div>
                 </Col>
-                <Col lg={3} xs={6}>
+                <Col lg={3} xs={6} sm={4}>
                         <div className="skills_one">
                         <a href="#"><img src={skills_four} alt="javascript"/></a>
                     </div>
                 </Col>
-                <Col lg={3} xs={6}>
+                <Col lg={3} xs={6} sm={4}>
                         <div className="skills_one">
                         <a href="#"><img src={skills_five} alt="react"/></a>
                     </div>
                 </Col>
-                <Col lg={3} xs={6}>
+                <Col lg={3} xs={6} sm={4}>
                         <div className="skills_one">
                         <a href="#"><img src={skills_six} alt="tailwind"/></a>
                     </div>
                 </Col>
-                <Col lg={3} xs={6}>
+                <Col lg={3} xs={6} sm={4}>
                         <div className="skills_one">
                         <a href="#"><img src={skills_seven} alt="tailwind"/></a>
                     </div>
                 </Col>
-                <Col lg={3} Col xs={6}>
+                <Col lg={3} Col xs={6} sm={4}>
                         <div className="skills_one">
                         <a href="#"><img src={skills_eight} alt="nextjs"/></a>
                     </div>

@@ -205,7 +205,7 @@
 }
 
 /* responsive part start */
-@media(min-width:200px) and (max-width:575.98px) {
+@media(min-width:200px) and (max-width:576.98px) {
 #main_blog {
     padding: 0px 0 20px;
 }
@@ -287,13 +287,192 @@
 	font-size: 15px;
 }
 }
-@media (min-width:576px) and (max-width:767.98px) {
-    
+@media (min-width:577px) and (max-width:767.98px){
+    #main_blog {
+        padding: 20px 0 40px;
+    }
+    .blog_left img {
+        height: 160px;
+    }
+    .blog_top h5 {
+        padding-top: 50px;
+        letter-spacing: 2px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .blog_top h2 {
+        font-size: 28px;
+        padding-bottom: 0px;
+    }
+    .blog_left {
+        margin-top: 10px;
+        padding: 15px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+    }
+    .blog_left h6 {
+        padding-top: 16px;
+        font-size: 18px;
+    }
+    .blog_left p {
+        padding-top: 0px;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .blog_left a {
+        padding-top: 0px;
+        font-size: 15px;
+    }
+    .blog_right {
+        padding: 16px 16px;
+        margin-top: 16px;
+    }
+    .blog_right:hover{
+        rotate: 0deg;
+    }
+    .blog_right img {
+        height: 160px;
+    }
+    .blog_right h6 {
+        font-size: 18px;
+    }
+    .blog_right p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .blog_right a {
+        padding-top: 0px;
+        font-size: 15px;
+    }
+    .blog_right_down {
+        padding: 16px 16px;
+        margin-top: 16px;
+    }
+    .blog_right_down:hover{
+        rotate: 0deg;
+    }
+    .blog_right_down img {
+        height: 160px;
+    }
+    .blog_right_down h6 {
+        font-size: 18px;
+    }
+    .blog_right_down p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .blog_right_down a {
+        padding-top: 0px;
+        font-size: 15px;
+    }
 }
-@media (min-width:992px) and (max-width:1199.98px) {
-  
+@media (min-width:768px) and (max-width:991.98px){
+    #main_blog {
+        padding: 20px 0 60px;
+    }
+    .blog_left img {
+        height: 200px;
+    }
+    .blog_top h5 {
+        padding-top: 60px;
+        letter-spacing: 2px;
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .blog_top h2 {
+        font-size: 28px;
+        padding-bottom: 0px;
+    }
+    .blog_left {
+        margin-top: 85px;
+        padding: 15px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+    }
+    .blog_left h6 {
+        padding-top: 28px;
+        font-size: 22px;
+    }
+    .blog_left p {
+        padding-top: 0px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .blog_left a {
+        padding-top: 0px;
+        font-size: 16px;
+    }
+    .blog_right {
+        padding: 16px 16px;
+        margin-top: 16px;
+    }
+    .blog_right:hover{
+        rotate: 0deg;
+    }
+    .blog_right img {
+        height: 160px;
+    }
+    .blog_right h6 {
+        font-size: 20px;
+    }
+    .blog_right p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .blog_right a {
+        padding-top: 0px;
+        font-size: 16px;
+    }
+    .blog_right_down {
+        padding: 16px 16px;
+        margin-top: 16px;
+    }
+    .blog_right_down:hover{
+        rotate: 0deg;
+    }
+    .blog_right_down img {
+        height: 160px;
+    }
+    .blog_right_down h6 {
+        font-size: 18px;
+    }
+    .blog_right_down p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .blog_right_down a {
+        padding-top: 0px;
+        font-size: 16px;
+    }
 }
+@media (min-width:992px) and (max-width:1199.98px){
+    .blog_left {
+        margin-top: 14px;
+    }
+    .blog_top h5 {
+        padding-top: 70px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 18px;
+        line-height: 36px;
+        font-weight: 500;
+        color: #ff014f;
+        font-family: "Poppins", sans-serif;
+        opacity: 0.6;
+    }
+    .blog_top h2 {
+        font-size: 38px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399.98px){
 
-@media (min-width:1200px) and (max-width:1400px){
- 
+}
+@media (min-width:1400px) and (max-width:1600px){
+
 }

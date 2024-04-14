@@ -73,7 +73,7 @@
 }
 
 /* responsive part start */
-@media(min-width:200px) and (max-width:575.98px) {
+@media(min-width:200px) and (max-width:576.98px) {
     #main_service {
         padding: 20px 0;
     }
@@ -107,13 +107,114 @@
         padding-top: 0px;
     }
 }
-@media (min-width:576px) and (max-width:767.98px) {
-    
+@media (min-width:577px) and (max-width:767.98px){
+    #main_service {
+        padding: 40px 0;
+    }
+    .service_top h5 {
+        padding-top: 20px;
+        letter-spacing: 2px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .service_top h2 {
+        font-size: 28px;
+        padding-bottom: 12px;
+    }
+    .card_one {
+        margin-bottom: 18px;
+        padding: 16px 8px 5px;
+  }
+    .card_one:hover{
+        padding: 16px 8px 5px;
+    }
+    .card_one svg {
+        font-size: 28px;
+    }
+    .card_one h6 {
+        padding-top: 5px;
+        font-size: 18px;
+    }
+    .card_one p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 0px;
+    }
 }
-@media (min-width:992px) and (max-width:1199.98px) {
-  
+@media (min-width:768px) and (max-width:991.98px){
+    #main_service {
+        padding: 40px 0;
+    }
+    .service_top h5 {
+        padding-top: 70px;
+        letter-spacing: 2px;
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .service_top h2 {
+        font-size: 38px;
+        padding-bottom: 22px;
+    }
+    .card_one {
+        margin-bottom: 18px;
+        padding: 28px 36px 5px;
+    }
+    .card_one:hover{
+        padding: 23px 36px 10px;
+    }
+    .card_one svg {
+        font-size: 28px;
+    }
+    .card_one h6 {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .card_one p {
+        font-size: 16px;
+        line-height: 26px;
+        padding-top: 0px;
+    }
 }
-
-@media (min-width:1200px) and (max-width:1400px){
- 
+@media (min-width:992px) and (max-width:1199.98px){
+    #main_service {
+        padding: 60px 0;
+    }
+    .service_top h5 {
+        padding-top: 60px;
+        letter-spacing: 2px;
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .service_top h2 {
+        font-size: 38px;
+        padding-bottom: 22px;
+    }
+    .card_one {
+        margin-bottom: 18px;
+        padding: 28px 30px 5px;
+    }
+    .card_one:hover{
+        padding: 20px 30px 13px;
+    }
+    .card_one svg {
+        font-size: 28px;
+    }
+    .card_one h6 {
+        padding-top: 10px;
+        font-size: 21px;
+    }
+    .card_one p {
+        font-size: 16px;
+        line-height: 26px;
+        padding-top: 0px;
+    }
+}
+@media (min-width:1200px) and (max-width:1399.98px){
+    .card_one {
+        margin-bottom: 18px;
+        padding: 38px 28px;
+    }
+    .card_one:hover{
+        padding: 30px 28px 38px;
+    }
 }

@@ -15,7 +15,7 @@ const Footer = () => {
               <h4 className='logo'>Mashrafi</h4>
             </div>
           </Col>
-          <Col lg={3}  sm={4}>
+          <Col lg={3} xs={4}>
             <div className="footer_two">
               <h4>QUICK LINK</h4>
               <ul>
@@ -28,7 +28,7 @@ const Footer = () => {
               </ul>
             </div>
           </Col>
-          <Col lg={3}  sm={4}>
+          <Col lg={3}  xs={4}>
             <div className="footer_two">
               <h4>RESOURCES</h4>
               <ul>
@@ -40,7 +40,7 @@ const Footer = () => {
               </ul>
             </div>
           </Col>
-          <Col lg={3} Col sm={4}>
+          <Col lg={3} xs={4}>
             <div className="footer_two">
               <h4>DEVELOPERS</h4>
               <ul>

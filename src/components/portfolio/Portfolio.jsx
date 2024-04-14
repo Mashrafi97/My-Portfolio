@@ -3,9 +3,9 @@ import "./portfolio.css"
 import { Container, Row, Col } from 'react-bootstrap'
 import Slider from "react-slick";
 import { IoCheckmarkSharp } from "react-icons/io5";
-import slider_one_img from "../../assets/slider_one.jpg"
-import slider_two_img from "../../assets/slider_two.jpg"
-import slider_three_img from "../../assets/slider_three.jpg"
+import slider_one_img from "../../assets/finsweet.jpg"
+import slider_two_img from "../../assets/emprise.jpg"
+import slider_three_img from "../../assets/innovate.jpg"
 import { GrFormNext } from "react-icons/gr";
 import { GrFormPrevious } from "react-icons/gr";
 
@@ -50,13 +50,13 @@ const Portfolio = () => {
                     </div>
                 </Col>
                 <Slider {...settings}>
-                <Col lg={12}> 
+                <Col lg={12} xs={12}> 
                     <div className="slider_one">
                         <Row>
-                        <Col lg={5}>
+                        <Col lg={5} xs={5}>
                             <div className="slider_one_left">
-                                <h4>The services provice for user</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quidem nihil quo! Harum doloremque, accusantium esse nostrum quae blanditiis consectetur eius debitis quam veniam, expedita cupiditate ea qui, praesentium temporibus!</p>
+                                <h4>Finsweet Project</h4>
+                                <p>Finsweet Project is buit by HTML, CSS and Bootstrap. It's a multi page Web App.</p>
                                 <ul>
                                     <li><IoCheckmarkSharp /><span>Responsive design</span></li>
                                     <li><IoCheckmarkSharp /><span>Quiz builder</span></li>
@@ -66,23 +66,23 @@ const Portfolio = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={7}>
+                        <Col lg={7} xs={7}>
                             <div className="slider_one_right">
-                                <a href="#"><img src={slider_one_img} alt="slider_one" /></a>
+                                <a href="https://mashrafi97.github.io/Finsweet-Project/"><img src={slider_one_img} alt="finsweet" /></a>
                             </div>
                         </Col>
                         </Row>
                     </div>
                 </Col>
-                <Col lg={12}> 
+                <Col lg={12} xs={12}> 
                     <div className="slider_one">
                         <Row>
-                        <Col lg={5}>
+                        <Col lg={5} xs={5}>
                             <div className="slider_one_left">
-                                <h4>The services provice for user</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quidem nihil quo! Harum doloremque, accusantium esse nostrum quae blanditiis consectetur eius debitis quam veniam, expedita cupiditate ea qui, praesentium temporibus!</p>
+                                <h4>Emprise Project</h4>
+                                <p>Finsweet Project is buit by HTML, CSS and Bootstrap. It's a single page Web App.</p>
                                 <ul>
-                                    <li><IoCheckmarkSharp /><span>Responsive design</span></li>
+                                    <li><IoCheckmarkSharp /><span>Non Responsive</span></li>
                                     <li><IoCheckmarkSharp /><span>Quiz builder</span></li>
                                     <li><IoCheckmarkSharp /><span>Fast Loading Website</span></li>
                                     <li><IoCheckmarkSharp /><span>Stats & reports</span></li>
@@ -90,23 +90,23 @@ const Portfolio = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={7}>
+                        <Col lg={7} xs={7}>
                             <div className="slider_one_right">
-                                <a href="#"><img src={slider_two_img} alt="slider_two" /></a>
+                                <a href="https://mashrafi97.github.io/Emprise-project/"><img src={slider_two_img} alt="emprise" /></a>
                             </div>
                         </Col>
                         </Row>
                     </div>
                 </Col>
-                <Col lg={12}> 
+                <Col lg={12} xs={12}> 
                     <div className="slider_one">
-                        <Row>
-                        <Col lg={5}>
+                        <Row> 
+                        <Col lg={5} xs={5}>
                             <div className="slider_one_left">
-                                <h4>The services provice for user</h4>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quidem nihil quo! Harum doloremque, accusantium esse nostrum quae blanditiis consectetur eius debitis quam veniam, expedita cupiditate ea qui, praesentium temporibus!</p>
+                                <h4>Innovate Project</h4>
+                                <p>Finsweet Project is buit by HTML, CSS and Bootstrap. It's a Landing page Web App.</p>
                                 <ul>
-                                    <li><IoCheckmarkSharp /><span>Responsive design</span></li>
+                                    <li><IoCheckmarkSharp /><span>Non-Responsive design</span></li>
                                     <li><IoCheckmarkSharp /><span>Quiz builder</span></li>
                                     <li><IoCheckmarkSharp /><span>Fast Loading Website</span></li>
                                     <li><IoCheckmarkSharp /><span>Stats & reports</span></li>
@@ -114,9 +114,9 @@ const Portfolio = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={7}>
+                        <Col lg={7} xs={7}>
                             <div className="slider_one_right">
-                                <a href="#"><img src={slider_three_img} alt="slider_three" /></a>
+                                <a href="https://mashrafi97.github.io/Innovate/"><img src={slider_three_img} alt="innovate" /></a>
                             </div>
                         </Col>
                         </Row>

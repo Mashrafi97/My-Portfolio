@@ -19,7 +19,7 @@ const Contact = () => {
                     <img src={deal} alt="deal" />
                     <h3>Mashrafi Khan</h3>
                     <p>I am available for freelance work Remote On-field both. Connect with me via and call in to my account</p>
-                    <span>Phone :</span> <a href="tel:+8801600233854"> 8801600233854</a> <br />
+                    <span>Phone :</span> <a href="tel:+8801600233854"> +8801600233854</a> <br />
                     <span>Email :</span> <a href="mailto:mashrafikhan1000@gmail.com"> mashrafikhan1000@gmail.com</a>
                 </div>
             </Col>
