@@ -118,22 +118,7 @@
         padding-left: 130px;
     }
     .button a{
-        margin-top: 10px;
-        padding: 6px 14px;
-        background-color: red;
-        font-size: 14px;
-        font-weight: 400;
-        font-family: "Poppins", sans-serif;
-        line-height: 28px;
-        text-transform: uppercase;
-        color: #fff !important;
-        border-radius: 14px;
-        -webkit-border-radius: 14px;
-        -moz-border-radius: 14px;
-        -ms-border-radius: 14px;
-        -o-border-radius: 14px;
-        margin-left: 80px;
-        opacity: 0.9;
+        display: none;
 }
 .navbar-toggler-icon {
 	background-color: white;
@@ -145,10 +130,11 @@
         margin-top: 2px;
         font-size: 14px;
         font-weight: 400;
-        padding-left: 14px !important;
+        padding-left: 9px !important;
     }
     .main_nav .logo {
         margin-top: 8px;
+        font-size: 22px;
     }
     .main_nav .button a {
         display: none;

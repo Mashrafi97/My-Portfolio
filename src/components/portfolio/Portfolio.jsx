@@ -53,7 +53,7 @@ const Portfolio = () => {
                 <Col lg={12} xs={12}> 
                     <div className="slider_one">
                         <Row>
-                        <Col lg={5} xs={5}>
+                        <Col lg={5} xs={12}>
                             <div className="slider_one_left">
                                 <h4>Finsweet Project</h4>
                                 <p>Finsweet Project is buit by HTML, CSS and Bootstrap. It's a multi page Web App.</p>
@@ -66,7 +66,7 @@ const Portfolio = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={7} xs={7}>
+                        <Col lg={7} xs={12}>
                             <div className="slider_one_right">
                                 <a href="https://mashrafi97.github.io/Finsweet-Project/"><img src={slider_one_img} alt="finsweet" /></a>
                             </div>
@@ -77,7 +77,7 @@ const Portfolio = () => {
                 <Col lg={12} xs={12}> 
                     <div className="slider_one">
                         <Row>
-                        <Col lg={5} xs={5}>
+                        <Col lg={5} xs={12}>
                             <div className="slider_one_left">
                                 <h4>Emprise Project</h4>
                                 <p>Finsweet Project is buit by HTML, CSS and Bootstrap. It's a single page Web App.</p>
@@ -90,7 +90,7 @@ const Portfolio = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={7} xs={7}>
+                        <Col lg={7} xs={12}>
                             <div className="slider_one_right">
                                 <a href="https://mashrafi97.github.io/Emprise-project/"><img src={slider_two_img} alt="emprise" /></a>
                             </div>
@@ -101,7 +101,7 @@ const Portfolio = () => {
                 <Col lg={12} xs={12}> 
                     <div className="slider_one">
                         <Row> 
-                        <Col lg={5} xs={5}>
+                        <Col lg={5} xs={12}>
                             <div className="slider_one_left">
                                 <h4>Innovate Project</h4>
                                 <p>Finsweet Project is buit by HTML, CSS and Bootstrap. It's a Landing page Web App.</p>
@@ -114,7 +114,7 @@ const Portfolio = () => {
                                 </ul>
                             </div>
                         </Col>
-                        <Col lg={7} xs={7}>
+                        <Col lg={7} xs={12}>
                             <div className="slider_one_right">
                                 <a href="https://mashrafi97.github.io/Innovate/"><img src={slider_three_img} alt="innovate" /></a>
                             </div>

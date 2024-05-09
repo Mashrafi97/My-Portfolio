@@ -11,7 +11,7 @@
     left: 0;
     top: 20px;
     height: 2px;
-    width: 100%;
+    width: auto;
     background-color: #121415;
     opacity: 0.8;
 }
@@ -104,16 +104,12 @@
 }
 
 /* responsive part start */
-@media(min-width:200px) and (max-width:576.98px) {
+@media (max-width:576.98px) {
 #main_footer {
     padding: 20px 0 20px;
 }
 .footer_one {
 	margin-top: 44px;
-}
-.footer_two h4 {
-	padding-top: 16px;
-	font-size: 18px;
 }
 .footer_two ul li a {
 	padding-top: 5px;
@@ -123,6 +119,10 @@
 .copyright_part {
     margin-top: 20px;
 	padding: 20px 0 5px;
+}
+.footer_two h4 {
+	padding-top: 16px;
+	font-size: 14px;
 }
 }
 @media (min-width:577px) and (max-width:767.98px){

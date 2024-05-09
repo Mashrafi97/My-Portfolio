@@ -27,7 +27,7 @@ function Menu() {
             <Nav.Link href="#main_banner">Home</Nav.Link>
             <Nav.Link href="#main_about">About</Nav.Link>
             <Nav.Link href="#main_service">Service</Nav.Link>
-            <Nav.Link href="#main_service">Blog</Nav.Link>
+            <Nav.Link href="#main_blog">Blog</Nav.Link>
             <Nav.Link href="#main_portfolio">Portfolio</Nav.Link>
             <Nav.Link href="#main_pricing">Pricing</Nav.Link>
             <Nav.Link href="#main_contact">Contact</Nav.Link>

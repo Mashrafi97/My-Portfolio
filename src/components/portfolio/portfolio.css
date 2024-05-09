@@ -197,7 +197,7 @@
 }
 
 /* responsive part start */
-@media (min-width:200px) and (max-width:576.98px) {
+@media (max-width:576.98px) {
     #main_portfolio {
         padding: 20px 0;
     }
@@ -239,6 +239,7 @@
         font-size: 14px;
         line-height: 26px;
         padding-top: 4px;
+        width: 197px;
     }
     .slider_one_right img {
         margin-top: 12px;
