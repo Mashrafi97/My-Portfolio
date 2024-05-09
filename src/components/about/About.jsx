@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css"
 import { Container, Row, Col,} from 'react-bootstrap'
-import CV from "../../assets/CV.pdf"
+import CV from "../../assets/myresume.pdf"
 
 const About = () => {
   return (
